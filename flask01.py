@@ -16,3 +16,11 @@ def reporter(reporter_id):
     <a href="/">Return to home page</a>
     '''
 
+@app.route('/article')
+def article():
+  return '''<a href= "/">Return back to home page</a>'''
+
+
+
+if __name__ == "__main__":
+    app.run()
